@@ -1,0 +1,110 @@
+/* home page */
+
+@media (max-width: 1339px) {
+
+    /* article */
+    .cards_container {
+        overflow-x: scroll;
+    }
+
+    .card {
+        flex: 1 0 282px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .new_items {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .news_container {
+        padding-inline: 32px 0;
+    }
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* footer */
+    footer {
+        padding-inline: 32px;
+    }
+
+    /* artworks page */
+
+    /* article  */
+
+    .artworks_cards {
+        padding-inline: 32px;
+    }
+
+    .artworks_cards_list1 {
+        display: none;
+    }
+
+    .product_name1 {
+        color: #B53B1B;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 16px;
+        display: none;
+    }
+
+    .trade_container1 {
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .value_tag1 {
+        color: #402101;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: 16px;
+        display: none;
+    }
+
+    .trade_btn1 {
+        width: 40px;
+        height: 40px;
+        background: #B53B1B;
+        border: none;
+        display: none;
+    }
+
+    .fa-cart-plus {
+        color: #ffffff;
+    }
+
+    .artworks_cards_list_img {
+        width: 100%;
+    }
+
+    /* contact page */
+    .main_fixed_container {
+        width: 80%;
+    }
+}
+
+/* contact page */
+
+@media (max-width: 800px) {
+    .contact_info_box_bar {
+        column-gap: 74px;
+    }
+}
+
+@media (max-width: 770px) {
+    .contact_info_box_bar {
+        column-gap: 50px;
+    }
+}

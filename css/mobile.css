@@ -1,0 +1,323 @@
+/* home page */
+@media (max-width: 480px) {
+
+    /* header */
+    header {
+        padding-inline: 20px;
+    }
+
+    /* main */
+    main {
+        height: 304px;
+    }
+
+    .main_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .news_container {
+        padding: 64px 0 64px 20px;
+    }
+
+    .new_items_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .article_subscribe {
+        height: 320px;
+    }
+
+    /* artworks page */
+
+    /* main_art */
+    .main_art {
+        height: 400px;
+    }
+
+    .artworks_cards_title_section {
+        column-gap: 24px;
+    }
+
+
+    .search_btn {
+        width: 90%;
+    }
+
+    .search_input {
+        width: 90%;
+    }
+
+    .artworks_cards {
+        padding: 60px 24px;
+    }
+
+    .works_section_title {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .product_name {
+        color: #B53B1B;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 16px;
+    }
+
+    .trade_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .value_tag {
+        color: #402101;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: 16px;
+    }
+
+    .trade_btn {
+        width: 40px;
+        height: 40px;
+        background: #B53B1B;
+        border: none;
+        display: inline;
+    }
+
+    .fa-cart-plus {
+        color: #ffffff;
+    }
+
+    .pagination a {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding: 6px 12px 5px 13px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #FFF;
+    }
+
+    /* contact page  */
+    .main_contact_container {
+        height: 560px;
+    }
+
+    .main_fixed_container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact_form_title {
+        font-size: 30px;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .contact_username {
+        width: 150px;
+    }
+
+    .contact_email {
+        width: 150px;
+    }
+
+    .contact_info_box_aside {
+        column-gap: 42px;
+    }
+}
+
+@media (max-width: 421px) {
+    .subscribe_label {
+        font-size: 25px;
+    }
+
+    .subscribe_input {
+        display: flex;
+        width: 180px;
+        height: 56px;
+        padding: 15px 80px 17px 15px;
+        align-items: center;
+        border-radius: 10px 0px 0px 10px;
+        background: #D5906E;
+    }
+
+    .subscribe_input::placeholder {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subscribe_button {
+        display: flex;
+        height: 56px;
+        padding: 14px;
+        justify-content: center;
+        align-items: center;
+        color: #402101;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
+
+/* contact page  */
+
+@media (max-width: 410px) {
+    .contact_username {
+        width: 135px;
+    }
+
+    .contact_email {
+        width: 135px;
+    }
+}
+
+@media (max-width: 401px) {
+
+    /* section */
+    .designs_container {
+        column-gap: 12px;
+    }
+
+    .container_1_1,
+    .container_1_2 {
+        row-gap: 12px;
+    }
+}
+
+/* contact page */
+
+@media (max-width: 390px) {
+    .contact_username {
+        width: 120px;
+    }
+
+    .contact_email {
+        width: 120px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    /* section */
+    .section_designs {
+        height: 476px;
+    }
+
+    .container_1 {
+        height: 110px;
+        width: 130px;
+    }
+
+    .container_2 {
+        height: 110px;
+        width: 130px;
+    }
+
+    .container_3 {
+        height: 110px;
+        width: 130px;
+    }
+
+    .container_4 {
+        height: 110px;
+        width: 130px;
+    }
+
+    .title1_container,
+    .title2_container,
+    .title3_container,
+    .title4_container {
+        padding: 5px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 377px) {
+
+    /* main */
+    .main_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 371px) {
+    .search_input {
+        display: flex;
+        height: 56px;
+        padding-left: 10px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 80px;
+        border: 2px solid #FFF;
+        background: #F5F5F5;
+    }
+
+    .serch_input::placeholder {
+        color: rgba(213, 144, 110, 0.52);
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .search_button {
+        display: flex;
+        height: 56px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+        background: #B53B1B;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 353px) {
+
+    /* main */
+    .main_title {
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+
+/* contact page  */
+
+@media (max-width: 340px) {
+    .contact_username {
+        width: 100px;
+    }
+
+    .contact_email {
+        width: 100px;
+    }
+}

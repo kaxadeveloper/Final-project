@@ -1,0 +1,426 @@
+/* home page */
+
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+
+    .burger,
+    .header_minilogo {
+        display: block;
+    }
+
+    .header_logo1 {
+        display: none;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 96px;
+        left: -100%;
+        padding: 25px 143px 25px 20px;
+        background: #B53B1B;
+        transition: .5s linear;
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    /* section */
+    .container_1 {
+        height: 162px;
+        width: 180px;
+    }
+
+    .container_2 {
+        height: 162px;
+        width: 180px;
+    }
+
+    .container_3 {
+        height: 162px;
+        width: 180px;
+    }
+
+    .container_4 {
+        height: 162px;
+        width: 180px;
+    }
+
+    .title1_container,
+    .title2_container,
+    .title3_container,
+    .title4_container {
+        display: inline-flex;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: #FFF;
+        color: #B53B1B;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 87px;
+        padding-bottom: 87px;
+        padding-inline: 24px;
+    }
+
+    /* artworks page */
+
+    /* article */
+    .artworks_cards {
+        padding-inline: 24px;
+    }
+
+    /* contact page */
+
+    .main_fixed_container {
+        width: 85%;
+    }
+
+    .contact_info_box_section {
+        height: 736px;
+        width: 100%;
+    }
+
+    .contact_info_box_bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .contact_info_box_aside {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 72px;
+    }
+
+    .contact_info_box_name {
+        display: none;
+    }
+
+    .contact_info_box_map {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    iframe {
+        width: 95%;
+    }
+}
+
+/* artworks page */
+
+/* article */
+
+@media (max-width: 665px) {
+
+    .works_section_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .product_name {
+        font-size: 12px;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 20px;
+        transform: rotate(90deg);
+    }
+
+    .value_tag {
+        font-size: 20px;
+    }
+
+    .trade_btn {
+        width: 20%;
+    }
+}
+
+/* footer */
+
+@media (max-width: 651px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+        text-align: center;
+    }
+
+    .contact_info {
+        display: none;
+    }
+
+    .footer_logo {
+        margin-top: 32px;
+    }
+
+    .contact_info_container {
+        display: flex;
+        column-gap: 24px;
+        margin-top: 32px;
+    }
+}
+
+/* main_art  */
+
+@media (max-width: 621px) {
+    .search_form {
+        row-gap: 32px;
+    }
+
+    .search_label {
+        color: #FFF;
+        text-shadow: 0px 4px 2px #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+    .search_input {
+        display: flex;
+        height: 56px;
+        padding-left: 16px;
+        justify-content: flex-end;
+        align-items: center;
+        border: 2px solid #FFF;
+        background: #F5F5F5;
+    }
+
+    .serch_input::placeholder {
+        color: rgba(213, 144, 110, 0.52);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .search_button {
+        display: flex;
+        height: 56px;
+        padding: 15px 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+        background: #B53B1B;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+/* home page */
+
+/* article_subscribe */
+
+@media (max-width: 581px) {
+    .subscribe_label {
+        font-size: 32px;
+    }
+
+    .subscribe_input {
+        display: flex;
+        width: 225px;
+        height: 56px;
+        padding: 19px 102px 18px 16px;
+        align-items: center;
+        border-radius: 10px 0px 0px 10px;
+        background: #D5906E;
+    }
+
+    .subscribe_input::placeholder {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subscribe_button {
+        display: flex;
+        height: 56px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        color: #402101;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+
+/* artworks page */
+
+/* article */
+
+@media (max-width: 560px) {
+
+    .works_section_title {
+        font-size: 15px;
+    }
+
+    .title_section_button {
+        font-size: 12px;
+        line-height: 29px;
+        padding: 6px 15px;
+    }
+
+    .product_name {
+        font-size: 10px;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 15px;
+        transform: rotate(90deg);
+    }
+
+    .value_tag {
+        font-size: 15px;
+    }
+
+    .trade_btn {
+        width: 20%;
+    }
+}
+
+@media (max-width: 531px) {
+    .search_form {
+        row-gap: 25px;
+    }
+
+    .search_label {
+        color: #FFF;
+        text-shadow: 0px 4px 2px #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+    .search_input {
+        display: flex;
+        height: 56px;
+        padding-left: 16px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        border: 2px solid #FFF;
+        background: #F5F5F5;
+    }
+
+    .serch_input::placeholder {
+        color: rgba(213, 144, 110, 0.52);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .search_button {
+        display: flex;
+        height: 56px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+        background: #B53B1B;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 514px) {
+    .search_form {
+        row-gap: 25px;
+    }
+
+    .search_btn {
+        width: 90%;
+    }
+
+    .search_input {
+        width: 90%;
+    }
+
+    .search_label {
+        color: #FFF;
+        text-shadow: 0px 4px 2px #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    .search_input {
+        display: flex;
+        height: 56px;
+        padding-left: 16px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 80px;
+        border: 2px solid #FFF;
+        background: #F5F5F5;
+    }
+
+    .serch_input::placeholder {
+        color: rgba(213, 144, 110, 0.52);
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .search_button {
+        display: flex;
+        height: 56px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+        background: #B53B1B;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
